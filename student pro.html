@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student|Profile</title>
+    <style>
+        body{
+            margin: 20%;
+        }
+        input{
+            text-align: left;
+        }
+        #ab{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center><h3>Student Profile</h3></center>
+    <div>
+        <center> <form action="#">
+            <table>
+                <tr>
+                    <td id="ab"><strong><label for="fname">Frist Name:</label></strong></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Frist Name" required></td>
+                </tr>
+                <tr>
+                    <td id="ab"><strong><label for="lname">Last Name:</label></strong></td>
+                    <td><input type="text" id="lname" name="lname" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <td id="ab"><strong><label for="dob">Date of Brith:</label></strong></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td id="ab"><label for="age"><strong>Entre age:</strong></label></td>
+                    <td><input type="number" id="age" name="age" required></td>
+                </tr>
+                <tr>
+                    <td id="ab"><label for="gender"><strong>Gender:</strong></label></td>
+                    <td><input type="radio" id="gender" name="gender" checked><label for="gender">Male</label><input type="radio" id="gender" name="gender">
+                    <label for="gender">Female</label></td>
+                </tr>
+                <tr>
+                    <td id="ab"><label for="ca"><strong>Current Address:</strong></label></td>
+                    <td><textarea  name="ca" id="ca" rows="10" cols="50" required></textarea></td>
+                </tr>
+                <tr>
+                    <td id="ab"><label for="pa"><strong>Permanent Address:</strong></label></td>
+                    <td><textarea name="pa" id="pa" rows="10" cols="50" required></textarea></td>
+                </tr>
+            </table>
+            <button>Create</button>
+        </center>
+    </div>
+    
+</body>
+</html>
